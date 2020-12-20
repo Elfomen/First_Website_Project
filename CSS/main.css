@@ -4,16 +4,60 @@
   float: left;
   margin: 20px 10px; }
 
-.links li {
+li {
   list-style: none;
   margin: 20px 10px 20px 20px;
   float: right; }
-  .links li a {
+  li a {
     text-decoration: none;
     font-size: 20px;
-    color: #1f1f2e;
+    color: #29293d;
     font-weight: bold; }
-    .links li a:hover {
+    li a:hover {
       color: #ff4d4d; }
+
+.theMainBody {
+  height: auto;
+  background-color: #19192c; }
+  .theMainBody .text-col h1 {
+    color: #ff4d4d;
+    margin-top: 80px;
+    font-family: NiceYear;
+    text-align: center; }
+  .theMainBody .text-col p {
+    color: #c5c5f3;
+    margin-top: 380px;
+    font-family: NiceYear;
+    text-align: center;
+    margin: auto;
+    max-width: 430px;
+    margin-bottom: 100px; }
+
+.imgDiv {
+  height: auto;
+  box-shadow: -4px 4px 3px black;
+  margin: 60px;
+  margin-right: 90px;
+  margin-right: 50px;
+  max-width: 80%;
+  text-align: center; }
+  .imgDiv h1 {
+    color: #c5c5f3;
+    margin-top: 10px;
+    font-family: NiceYear;
+    text-align: center; }
+  .imgDiv img {
+    width: 50%; }
+  .imgDiv p {
+    color: #c5c5f3;
+    margin-top: 380px;
+    font-family: NiceYear;
+    text-align: center;
+    margin: auto;
+    max-width: 430px;
+    margin-bottom: 10px; }
+  .imgDiv button {
+    width: 300px;
+    margin-bottom: 20px; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,39 @@
+=arrangeToCenter($color , $margin_Top , $font_f, $textAlign)
+    color: $color
+    margin-top: $margin_Top
+    font-family: $font_f
+    text-align: $textAlign
+
+    
+.theMainBody
+    height: auto
+    background-color: $brand-darklue
+    .text-col
+        h1
+            +arrangeToCenter($brand-red-btn, 80px, NiceYear , center)
+        p
+            +arrangeToCenter($brand-font, 380px, NiceYear , center)
+            margin: auto
+            max-width: 430px
+            margin-bottom: 100px
+
+.imgDiv
+    height: auto
+    box-shadow: -4px 4px 3px black
+    margin: 60px
+    margin-right: 90px
+    margin-right: 50px
+    max-width: 80%
+    text-align: center
+    h1
+        +arrangeToCenter($brand-font, 10px , NiceYear , center)
+    img
+        width: 50%
+    p
+        +arrangeToCenter($brand-font, 380px, NiceYear , center)
+        margin: auto
+        max-width: 430px
+        margin-bottom: 10px
+    button
+        width: 300px
+        margin-bottom: 20px
