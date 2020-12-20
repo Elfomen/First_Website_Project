@@ -37,3 +37,33 @@
     button
         width: 300px
         margin-bottom: 20px
+
+.cars
+    background-color: $brand-cars-color
+    text-align: center
+    button
+        width: 350px
+        margin-bottom: 20px
+        .fs
+            text-decoration: line-through
+
+.second-body
+    .row
+        .bg-text
+            background-color: $brand-font
+            height: auto
+            text-align: center
+            box-shadow: -4px 4px 3px black
+            h1
+                +arrangeToCenter($brand-darklue, 10px , NiceYear , center)
+            p
+                +arrangeToCenter($brand-darklue, 380px, NiceYear , center)
+                margin: auto
+                max-width: 430px
+                margin-bottom: 40px
+            button
+                width: 250px
+        .bg
+            img
+                margin-left: 350px
+                height: 400px
