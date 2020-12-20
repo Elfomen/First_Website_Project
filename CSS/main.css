@@ -93,4 +93,16 @@ li {
   margin-left: 350px;
   height: 400px; }
 
+.foot {
+  background-color: #19192c;
+  margin: 10px;
+  height: 80px; }
+  .foot label {
+    margin: 20px;
+    color: white;
+    font-family: NiceYear;
+    font-size: 20px; }
+  .foot .cont {
+    float: right; }
+
 /*# sourceMappingURL=main.css.map */
